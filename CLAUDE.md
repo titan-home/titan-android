@@ -40,3 +40,5 @@ The commands are settled as the code arrives.
 3. If Gradle files or dependencies changed: the debug build succeeds.
 4. If user-visible text changed: every language has the same string
    resources.
+5. If Markdown or the `shared/` pointer changed:
+   `python3 shared/scripts/check_links.py .` prints nothing.
